@@ -10,6 +10,4 @@ paperurl: "https://openreview.net/pdf?id=KZI1MakbEj"
 citation: '<strong>Yinhao Wu</strong>, Hengrui Zhao, Haiqing Li, Wenliang Zhong, Hehuan Ma, Yuzhi Guo, Dan Nguyen, Daniel X. Yang, Steve B. Jiang, Junzhou Huang. (2026). Guideline-Informed MLLM Reasoning for Pathology-Aware Post-Operative Prostate CTV Segmentation. <i>Medical Imaging with Deep Learning (MIDL)</i>.'
 ---
 
-- Reformulated post-operative prostate CTV segmentation as a multimodal reasoning task by integrating pathology reports with CT visual context.
-- Designed a guideline-informed LLM agent to distill lengthy clinical reports into key pathology attributes for downstream segmentation.
-- Developed an attribute-specific MLLM reasoner with multi-scale fusion for fine-grained anatomical alignment and robust performance.
+Paper link: https://openreview.net/pdf?id=KZI1MakbEj
