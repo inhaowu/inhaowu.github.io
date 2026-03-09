@@ -20,7 +20,7 @@ repository: "inhaowu/inhaowu.github.io"
 #               If a field is blank the icon and link will not appear, otherwise it will be shown.
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
-  avatar           : "images/profile.jpg"
+  avatar           : "images/image.jpg"
   name             : "Yinhao Wu"
   pronouns         : "he/him"
   bio              : "PhD student in Computer Science at the University of Texas at Arlington, working on medical image segmentation, multimodal LLMs, radiotherapy planning, and shape analysis."
