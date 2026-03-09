@@ -11,11 +11,10 @@ I am a second-year PhD student in Computer Science at the University of Texas at
 
 My research interests focus on AI for medical imaging, including:
 
-- 3D Shape Analysis（e.g. ）
-- 3D Image Segmentation
-- Multimodal Language Models
-- Automated Radiotherapy Planning
-
+- 3D Shape Analysis (e.g., mesh reconstruction, skeletal representation)
+- 3D Image Segmentation (e.g., organ and tumor delineation in CT/MRI)
+- Multimodal Language Models (e.g., vision-language models for referring segmentation.)
+- Automated Radiotherapy Planning (e.g., dose prediction, beam angle optimization, and OAR sparing)
 
 
 I did my undergraduate studies at Xidian University, and my master's at Sun Yat-sen University, where I worked with Prof.[Shen Zhao](https://hnyz979.github.io).
