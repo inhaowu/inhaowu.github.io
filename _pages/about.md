@@ -9,11 +9,13 @@ redirect_from:
 
 I am a second-year PhD student in Computer Science at the University of Texas at Arlington (UTA), advised by Prof.[Junzhou Huang](https://ranger.uta.edu/~huang/).
 
-I did my undergraduate studies at Xidian University, and my master's at Sun Yat-sen University, where I worked with Prof.[Shen Zhao](https://hnyz979.github.io).
-
 My research interests focus on AI for medical imaging, including:
 
-- 3D Shape Analysis
+- 3D Shape Analysis（e.g. ）
 - 3D Image Segmentation
 - Multimodal Language Models
 - Automated Radiotherapy Planning
+
+
+
+I did my undergraduate studies at Xidian University, and my master's at Sun Yat-sen University, where I worked with Prof.[Shen Zhao](https://hnyz979.github.io).
