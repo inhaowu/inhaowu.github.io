@@ -17,4 +17,4 @@ My research interests focus on AI for medical imaging, including:
 - Automated Radiotherapy Planning (e.g., dose prediction, beam angle optimization, and OAR sparing)
 
 
-I did my undergraduate studies at Xidian University, and my master's at Sun Yat-sen University, where I worked with Prof.[Shen Zhao](https://hnyz979.github.io).
+I did my undergraduate studies at Xidian University, and my master's at Sun Yat-sen University, where I worked with Prof.[Shen Zhao](https://hnyz979.github.io). My CV is avaliable is at:(https://www.overleaf.com/read/fpdhwzbrkhhw#ab949f).
