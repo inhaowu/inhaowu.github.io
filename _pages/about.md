@@ -8,7 +8,7 @@ redirect_from:
 ---
 
 I am a second-year PhD student in Computer Science at the University of Texas at Arlington (UTA), advised by [Prof. Junzhou Huang](https://ranger.uta.edu/~huang/).
-I am currently also an intern at [MAIA Lab](https://labs.utsouthwestern.edu/maia-lab), UT Southwestern Medical Center (UTSW).
+I am currently collaborating with [MAIA Lab](https://labs.utsouthwestern.edu/maia-lab), UT Southwestern Medical Center (UTSW).
 I sincerely welcome collaboration and internship opportunities, and I would be grateful to connect if our interests align.
 
 My research interests focus on AI for medical imaging, including:
