@@ -17,7 +17,7 @@ title: Yinhao Wu
   <header class="bio" id="about">
     <div class="bio-copy">
       <h1>Yinhao Wu</h1>
-      <p>As a PhD student in Computer Science at <a href="https://www.uta.edu/">The University of Texas at Arlington</a>, advised by <a href="https://ranger.uta.edu/~huang/">Prof. Junzhou Huang</a> and collaborating with the <a href="https://labs.utsouthwestern.edu/maia-lab">MAIA Lab</a> at <a href="https://www.utsouthwestern.edu/">UT Southwestern Medical Center</a>, <strong class="opportunity-note">I am currently seeking internship opportunities and welcome inquiries about research collaborations.</strong></p>
+      <p>I’m a PhD student in Computer Science at <a href="https://www.uta.edu/">The University of Texas at Arlington</a>, advised by <a href="https://ranger.uta.edu/~huang/">Prof. Junzhou Huang</a> and collaborating with the <a href="https://labs.utsouthwestern.edu/maia-lab">MAIA Lab</a> at <a href="https://www.utsouthwestern.edu/">UT Southwestern Medical Center</a>, and <strong class="opportunity-note">I’m currently seeking internship opportunities and welcome inquiries about research collaborations.</strong></p>
       <nav class="links" aria-label="Profile links">
         <a href="{{ site.author.googlescholar }}">Google Scholar</a><span aria-hidden="true">/</span>
         <a href="https://www.overleaf.com/read/fpdhwzbrkhhw#ab949f">CV</a><span aria-hidden="true">/</span>
@@ -29,7 +29,7 @@ title: Yinhao Wu
   </header>
 
   <section class="research" aria-labelledby="research-heading">
-    <h2 id="research-heading">Research</h2>
+    <h2 id="research-heading"><span aria-hidden="true">🔬</span> Research</h2>
     <p>
       My research focuses on <strong>medical imaging</strong> and <strong>multimodal large language models (MLLMs)</strong>.
       I develop methods for 3D medical image segmentation and anatomical shape analysis, and investigate how MLLMs integrate imaging evidence with clinical knowledge and guidelines to support clinical reasoning in applications such as automated radiotherapy planning.
@@ -38,7 +38,7 @@ title: Yinhao Wu
   </section>
 
   <section id="publications" aria-labelledby="publications-heading">
-    <h2 id="publications-heading">Publications</h2>
+    <h2 id="publications-heading"><span aria-hidden="true">📄</span> Publications</h2>
     {% assign papers = site.publications | sort: 'date' | reverse %}
     {% for paper in papers %}
     <article class="paper">
@@ -62,9 +62,14 @@ title: Yinhao Wu
     {% endfor %}
   </section>
   <section class="miscellanea" aria-labelledby="miscellanea-heading">
-    <h2 id="miscellanea-heading">Miscellanea</h2>
+    <h2 id="miscellanea-heading"><span aria-hidden="true">📌</span> Miscellanea</h2>
     <h3>Academic Service</h3>
-    <p><strong>Reviewer:</strong> AAAI (2025, 2026), MICCAI (2025, 2026), NeurIPS (2026), IEEE Transactions on Medical Imaging (TMI), and WACV.</p>
+    <dl class="service-list">
+      <dt>Conference reviewer</dt>
+      <dd>AAAI (2025–2026) · MICCAI (2025–2026) · NeurIPS (2026) · WACV</dd>
+      <dt>Journal reviewer</dt>
+      <dd>IEEE Transactions on Medical Imaging (TMI)</dd>
+    </dl>
     <h3>Teaching</h3>
     <ul>
       <li>CSE 2315: Discrete Structures</li>
@@ -72,11 +77,15 @@ title: Yinhao Wu
     </ul>
   </section>
   <section class="education" aria-labelledby="education-heading">
-    <h2 id="education-heading">Education</h2>
+    <h2 id="education-heading"><span aria-hidden="true">🎓</span> Education</h2>
     <ul>
-      <li>Sun Yat-sen University (2020–2024)</li>
+      <li>Sun Yat-sen University (2020–2024), supervised by <a href="https://hnyz979.github.io">Prof. Shen Zhao</a></li>
       <li>Xidian University (2016–2020)</li>
     </ul>
+  </section>
+  <section class="contact" aria-labelledby="contact-heading">
+    <h2 id="contact-heading"><span aria-hidden="true">✉️</span> Contact</h2>
+    <p><a href="mailto:yxw2120@mavs.uta.edu">yxw2120@mavs.uta.edu</a></p>
   </section>
   <div class="visitor-map">
     <a href="https://mapmyvisitors.com/web/1c9mx" aria-label="Open interactive visitor map">
