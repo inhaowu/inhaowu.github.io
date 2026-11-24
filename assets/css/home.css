@@ -71,8 +71,34 @@ h3{font-size:17px;line-height:1.35;font-weight:700;margin:0 0 6px}
   margin: 8px 0 0;
 }
 .miscellanea,
-.education {
+.education,
+.contact {
   margin-top: 32px;
+}
+
+.service-list {
+  display: grid;
+  grid-template-columns: max-content minmax(0, 1fr);
+  gap: 4px 16px;
+  margin: 0 0 18px;
+}
+
+.service-list dt {
+  font-weight: 700;
+}
+
+.service-list dd {
+  margin: 0;
+}
+
+@media (max-width: 540px) {
+  .service-list {
+    grid-template-columns: 1fr;
+  }
+
+  .service-list dd + dt {
+    margin-top: 4px;
+  }
 }
 
 .visitor-map {
