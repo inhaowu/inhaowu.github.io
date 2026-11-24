@@ -1,0 +1,87 @@
+---
+layout: null
+title: Yinhao Wu
+---
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Yinhao Wu is a PhD student at UT Arlington researching medical imaging and multimodal language models.">
+  <title>Yinhao Wu</title>
+  <link rel="icon" href="{{ '/images/favicon.ico' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/home.css' | relative_url }}">
+</head>
+<body>
+<main class="page">
+  <header class="bio" id="about">
+    <div class="bio-copy">
+      <h1>Yinhao Wu</h1>
+      <p>As a PhD student in Computer Science at <a href="https://www.uta.edu/">The University of Texas at Arlington</a>, advised by <a href="https://ranger.uta.edu/~huang/">Prof. Junzhou Huang</a> and collaborating with the <a href="https://labs.utsouthwestern.edu/maia-lab">MAIA Lab</a> at <a href="https://www.utsouthwestern.edu/">UT Southwestern Medical Center</a>, <strong class="opportunity-note">I am currently seeking internship opportunities and welcome inquiries about research collaborations.</strong></p>
+      <nav class="links" aria-label="Profile links">
+        <a href="{{ site.author.googlescholar }}">Google Scholar</a><span aria-hidden="true">/</span>
+        <a href="https://www.overleaf.com/read/fpdhwzbrkhhw#ab949f">CV</a><span aria-hidden="true">/</span>
+        <a href="https://github.com/inhaowu">GitHub</a><span aria-hidden="true">/</span>
+        <a href="#publications">Publications</a>
+      </nav>
+    </div>
+    <img class="portrait" src="{{ '/images/image.jpg' | relative_url }}" alt="Portrait of Yinhao Wu" width="200" height="200">
+  </header>
+
+  <section class="research" aria-labelledby="research-heading">
+    <h2 id="research-heading">Research</h2>
+    <p>
+      My research focuses on <strong>medical imaging</strong> and <strong>multimodal large language models (MLLMs)</strong>.
+      I develop methods for 3D medical image segmentation and anatomical shape analysis, and investigate how MLLMs integrate imaging evidence with clinical knowledge and guidelines to support clinical reasoning in applications such as automated radiotherapy planning.
+      I also study guideline learning and rule-grounded reasoning in language models, focusing on how to represent interdependent rules and track their applicability during inference.
+    </p>
+  </section>
+
+  <section id="publications" aria-labelledby="publications-heading">
+    <h2 id="publications-heading">Publications</h2>
+    {% assign papers = site.publications | sort: 'date' | reverse %}
+    {% for paper in papers %}
+    <article class="paper">
+      <div class="paper-year">{{ paper.date | date: '%Y' }}</div>
+      <div class="paper-content">
+        <h3><a href="{{ paper.paperurl }}">{{ paper.title }}</a></h3>
+        <p class="paper-authors">{{ paper.authors }}</p>
+        <p class="paper-venue">
+          <em{% if paper.venue_style %} class="venue-highlight venue-{{ paper.venue_style | escape }}"{% endif %}>{{ paper.venue }}</em>{% if paper.presentation %}
+          <strong class="paper-presentation">{{ paper.presentation | escape }}</strong>{% endif %}
+        </p>
+        <p class="paper-links">
+          <a href="{{ paper.paperurl }}">Paper</a>{% if paper.codeurl %}
+          <span aria-hidden="true"> / </span><a href="{{ paper.codeurl | escape }}">Code</a>{% endif %}
+        </p>
+        {% if paper.excerpt %}
+        <p class="paper-summary">{{ paper.excerpt | strip_html | escape }}</p>
+        {% endif %}
+      </div>
+    </article>
+    {% endfor %}
+  </section>
+  <section class="miscellanea" aria-labelledby="miscellanea-heading">
+    <h2 id="miscellanea-heading">Miscellanea</h2>
+    <h3>Academic Service</h3>
+    <p><strong>Reviewer:</strong> AAAI (2025, 2026), MICCAI (2025, 2026), NeurIPS (2026), IEEE Transactions on Medical Imaging (TMI), and WACV.</p>
+    <h3>Teaching</h3>
+    <ul>
+      <li>CSE 2315: Discrete Structures</li>
+      <li>CSE 1325: Object-Oriented Programming</li>
+    </ul>
+  </section>
+  <section class="education" aria-labelledby="education-heading">
+    <h2 id="education-heading">Education</h2>
+    <ul>
+      <li>Sun Yat-sen University (2020–2024)</li>
+      <li>Xidian University (2016–2020)</li>
+    </ul>
+  </section>
+  <div class="visitor-map">
+    <img src="https://mapmyvisitors.com/map.png?d=7ALn-VSevsgp0H2Rn55PuV8ufsOpi2f4JZbyULYCQiA" alt="Map of recent visitors" width="240" loading="lazy">
+  </div>
+  <footer>© {{ 'now' | date: '%Y' }} Yinhao Wu</footer>
+</main>
+</body>
+</html>

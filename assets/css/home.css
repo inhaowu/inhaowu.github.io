@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+:root{color-scheme:light;--link:#1772d0;--hover:#f09228;--text:#111;--muted:#555}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--text);font:15px/1.5 Lato,Arial,sans-serif}
+.page{max-width:850px;margin:0 auto;padding:44px 26px 28px}
+a{color:var(--link);text-decoration:none}
+a:hover,a:focus-visible{color:var(--hover);text-decoration:underline}
+a:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+.bio{display:grid;grid-template-columns:minmax(0,1fr) 190px;gap:42px;align-items:center;margin-bottom:42px}
+h1{font-size:34px;font-weight:400;line-height:1.2;text-align:center;margin:0 0 25px}
+p{margin:0 0 15px}
+.portrait{width:190px;height:190px;object-fit:cover;border-radius:50%;justify-self:center}
+.links{text-align:center;margin-top:20px;display:flex;justify-content:center;flex-wrap:wrap;gap:6px 10px}
+h2{font-size:23px;font-weight:400;margin:0 0 15px}
+.research{margin-bottom:35px}
+.paper{display:grid;grid-template-columns:58px minmax(0,1fr);gap:20px;padding:18px 0;border-top:1px solid #e7e7e7}
+.venue-highlight {
+  display: inline-block;
+  background: var(--venue-bg);
+  border: 1px solid var(--venue-border);
+  border-radius: 4px;
+  padding: 0 6px;
+}
+
+.venue-miccai {
+  --venue-bg: #fffbed;
+  --venue-border: #eee5c7;
+}
+
+.venue-acl {
+  --venue-bg: #f4efff;
+  --venue-border: #e4d8fa;
+}
+
+.venue-tmi {
+  --venue-bg: #edf5ff;
+  --venue-border: #d5e5f7;
+}
+
+.venue-midl {
+  --venue-bg: #edf8f0;
+  --venue-border: #d5eadb;
+}
+
+.venue-cbm {
+  --venue-bg: #fff2e9;
+  --venue-border: #f4dfcf;
+}
+
+.venue-frontiers {
+  --venue-bg: #fceff3;
+  --venue-border: #f1d8e2;
+}
+
+.paper-year{color:var(--muted);padding-top:2px}
+h3{font-size:17px;line-height:1.35;font-weight:700;margin:0 0 6px}
+.paper-authors,.paper-venue{font-size:14px;margin:0}
+.opportunity-note {
+  color: red;
+}
+
+.paper-presentation {
+  color: #b00020;
+  margin-inline-start: 0.3em;
+}
+
+.paper-links{font-size:14px;margin:0}
+
+.paper-summary {
+  margin: 8px 0 0;
+}
+.miscellanea,
+.education {
+  margin-top: 32px;
+}
+
+.visitor-map {
+  max-width: 240px;
+  margin: 24px auto 0;
+  text-align: center;
+}
+
+footer{text-align:center;font-size:13px;color:var(--muted);border-top:1px solid #e7e7e7;padding-top:23px;margin-top:25px}
+@media(max-width:640px){.page{padding:26px 20px}.bio{display:flex;flex-direction:column-reverse;gap:18px;margin-bottom:35px}.portrait{width:150px;height:150px}h1{font-size:31px;margin-bottom:18px}.paper{grid-template-columns:1fr;gap:3px}.paper-year{font-size:13px}.links{gap:8px 10px}}
