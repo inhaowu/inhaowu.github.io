@@ -8,8 +8,8 @@ date: 2026-01-01
 venue: "Medical Imaging with Deep Learning (MIDL), 2026"
 venue_style: midl
 authors: "<strong>Yinhao Wu</strong>, Hengrui Zhao, Haiqing Li, Wenliang Zhong, Hehuan Ma, Yuzhi Guo, Dan Nguyen, Daniel X. Yang, Steve B. Jiang, Junzhou Huang"
-paperurl: "https://openreview.net/pdf?id=KZI1MakbEj"
+paperurl: "https://proceedings.mlr.press/v315/wu26b.html"
 citation: '<strong>Yinhao Wu</strong>, Hengrui Zhao, Haiqing Li, Wenliang Zhong, Hehuan Ma, Yuzhi Guo, Dan Nguyen, Daniel X. Yang, Steve B. Jiang, Junzhou Huang. (2026). Guideline-Informed MLLM Reasoning for Pathology-Aware Post-Operative Prostate CTV Segmentation. <i>Medical Imaging with Deep Learning (MIDL)</i>.'
 ---
 
-Paper link: https://openreview.net/pdf?id=KZI1MakbEj
+Paper link: https://proceedings.mlr.press/v315/wu26b.html
