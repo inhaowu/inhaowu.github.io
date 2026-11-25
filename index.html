@@ -44,14 +44,14 @@ title: Yinhao Wu
     <article class="paper">
       <div class="paper-year">{{ paper.date | date: '%Y' }}</div>
       <div class="paper-content">
-        <h3><a href="{{ paper.paperurl }}">{{ paper.title }}</a></h3>
+        <h3><a href="{{ paper.paperurl }}" target="_blank" rel="noopener">{{ paper.title }}</a></h3>
         <p class="paper-authors">{{ paper.authors }}</p>
         <p class="paper-venue">
           <em{% if paper.venue_style %} class="venue-highlight venue-{{ paper.venue_style | escape }}"{% endif %}>{{ paper.venue }}</em>{% if paper.presentation %}
           <strong class="paper-presentation">{{ paper.presentation | escape }}</strong>{% endif %}
         </p>
         <p class="paper-links">
-          <a href="{{ paper.paperurl }}">Paper</a>{% if paper.codeurl %}
+          <a href="{{ paper.paperurl }}" target="_blank" rel="noopener">Paper</a>{% if paper.codeurl %}
           <span aria-hidden="true"> / </span><a href="{{ paper.codeurl | escape }}">Code</a>{% endif %}
         </p>
         {% if paper.excerpt %}
